@@ -62,6 +62,7 @@ public class Employee {
 		return false;
 	}
 	
+	//Checks the balance on User demand
 	public String readBalance() {
 		return String.format("Your Account Info are:"
 				+ "\n%s",this.getFormattedAccountInfo().toString());
