@@ -16,9 +16,4 @@ public class SavingsAccount extends Account{
 	public String getAcctType() {
 		return "savings";
 	}
-	
-//	@Override
-//	public String toString() {
-//		return String.format("Account Type: %s\n%s", super.toString());
-//	}
 }
